@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="img/x-icon">
+	<title>forms css</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+		</header>
+		<main>
+
+			<div class="page">
+				<div class="consulting">
+					<form method="GET" enctype="multipart/form-data" action="#">
+						<div class="colsulting__container">
+							<div class="consulting__title">
+								<h4 class="title-sub">Contact Us</h4>
+								<h3 class="title">Request A Call Back !</h3>
+							</div>
+
+							<div class="consulting-body">
+								<div class="consulting-body__item">
+									<input placeholder="Your Name" required type="text">
+								</div>
+								<div class="consulting-body__item">
+									<input placeholder="Email Address" required type="email">
+								</div>
+								<div class="consulting-body__item">
+									<input placeholder="Phone Number" required type="number">
+								</div>
+								<div class="consulting-body__item">
+									<input placeholder="Subject" required type="text">
+								</div>
+								<div class="consulting-body__item-textarea">
+									<textarea name="massage" placeholder="massage" id="masag" cols="30" rows="10"></textarea>
+								</div>
+							</div>
+							<button class="consulting__button" type="submit">Submit</button>
+
+						</div>
+
+					</form>
+
+
+				</div>
+
+				<div class="info">
+					<div class="info__container">
+						<form method="GET" enctype="multipart/form-data" action="#">
+							<h2 class="euphoria__title">My Info</h2>
+							<h3 class="euphoria__sub-title">Add Address</h3>
+
+							<div class="info__block">
+								<div class="info__block-item">
+									<label for="info-name" class="info__block-label">First Name*</label>
+									<input id="info-name" class="info__block-text" required placeholder="First Name" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-last" class="info__block-label">Last Name*</label>
+									<input id="info-last" class="info__block-text" required placeholder="Last Name" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-country" class="info__block-label">Country / Region*</label>
+									<input id="info-country" class="info__block-text" required placeholder="Country / Region*" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-company" class="info__block-label">Company Name</label>
+									<input id="info-company" class="info__block-text" required placeholder="Company (optional)" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-street" class="info__block-label">Street Address*</label>
+									<input id="info-street" class="info__block-text" required placeholder="House number and street name" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-appartment" class="info__block-label">Apt, suite, unit</label>
+									<input id="info-appartment" class="info__block-text" required placeholder="apartment, suite, unit, etc. (optional)" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-city" class="info__block-label">City*</label>
+									<input id="info-city" class="info__block-text" required placeholder="Town / City" type="text">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info-state" class="info__block-label">State*</label>
+									<select class="info__list" required name="list" id="info-state">
+										<option value="">State</option>
+										<option value="Maine">Maine</option>
+										<option value="Nebraska">Nebraska</option>
+										<option value="Virginia">Virginia</option>
+									</select>
+								</div>
+
+								<div class="info__block-item">
+									<label for="info" class="info__block-label">Phone*</label>
+									<input id="info" class="info__block-text" required placeholder="Phone" type="tel">
+								</div>
+
+								<div class="info__block-item">
+									<label for="info1" class="info__block-label">Postal Code*</label>
+									<input id="info1" class="info__block-text" required placeholder="Postal Code" type="number">
+								</div>
+
+								<div class="info__block-item info__block-item--textarea">
+									<label for="info-textarea" class="info__block-label">Delivery Instruction</label>
+									<textarea name="massage" id="info-textarea" required cols="30" rows="10" placeholder="Delivery Instruction"></textarea>
+								</div>
+							</div>
+
+
+							<div class="info__checkbox">
+								<div class="checkbox">
+									<input id="check" class="checkbox__input" value="Set as default shipping address" type="checkbox">
+									<label for="check" class="checkbox__title">Set as default shipping address</label>
+								</div>
+
+								<div class="checkbox">
+									<input id="check-two" class="checkbox__input" value="Set as default billing address" checked type="checkbox">
+									<label for="check-two" class="checkbox__title">Set as default billing address</label>
+								</div>
+							</div>
+
+
+							<div class="buttons">
+								<button class="info-save">Save</button>
+								<button class="info-cancel">Cancel</button>
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+
+
+
+				<div class="out">
+					<div class="out__container">
+						<div class="out__header">
+
+							<form method="GET" enctype="multipart/form-data" action="#">
+
+								<h2 class="euphoria__title euphoria__title--color">Check Out</h2>
+								<h3 class="euphoria__sub-title">Billing Details</h3>
+								<div class="info__block info__block--size">
+									<div class="info__block-item info__block-item--size">
+										<label for="info11" class="info__block-label">First Name*</label>
+										<input id="info11" class="info__block-text" required placeholder="First Name" type="text">
+									</div>
+
+									<div class="info__block-item info__block-item--size">
+										<label for="info12" class="info__block-label">Last Name*</label>
+										<input id="info12" class="info__block-text" required placeholder="Last Name" type="text">
+									</div>
+
+									<div class="info__block-item info__block-item--size">
+										<label for="info13" class="info__block-label">Country / Region*</label>
+										<input id="info13" class="info__block-text" required placeholder="Country / Region*" type="text">
+									</div>
+
+									<div class="info__block-item info__block-item--size">
+										<label for="info14" class="info__block-label">Company Name</label>
+										<input id="info14" class="info__block-text" required placeholder="Company (optional)" type="text">
+									</div>
+
+									<div class="info__block-item info__block-item--size">
+										<label for="info15" class="info__block-label">Street Address*</label>
+										<input id="info15" class="info__block-text" required placeholder="House number and street name" type="text">
+									</div>
+
+									<div class="info__block-item info__block-item--size">
+										<label for="info16" class="info__block-label">Apt, suite, unit</label>
+										<input id="info16" class="info__block-text" required placeholder="apartment, suite, unit, etc. (optional)" type="text">
+									</div>
+
+
+									<div class="info__block-item info__block-item--three">
+										<div class="info__block-column">
+											<label for="info17" class="info__block-label">City*</label>
+											<input id="info17" class="info__block-text" required placeholder="Town / City" type="text">
+										</div>
+
+										<div class="info__block-column">
+											<label for="state-info" class="info__block-label">State*</label>
+											<select class="info__list" required name="list" id="state-info">
+												<option value>State</option>
+												<option value="Maine">Maine</option>
+												<option value="Nebraska">Nebraska</option>
+												<option value="Virginia">Virginia</option>
+											</select>
+										</div>
+										<div class="info__block-column">
+											<label for="code-info5" class="info__block-label">Postal Code*</label>
+											<input id="code-info5" class="info__block-text" required placeholder="Postal Code" type="number">
+										</div>
+									</div>
+
+									<div class="info__block-item info__block-item--size">
+										<label for="info18" class="info__block-label">Phone*</label>
+										<input id="info18" class="info__block-text" required placeholder="Phone" type="tel">
+									</div>
+								</div>
+
+
+								<button class="info__button button" type="submit">Continue to delivery</button>
+
+								<div class="info__checkbox info__checkbox--box">
+									<div class="checkbox check-box">
+										<input id="checkbox" class="checkbox__input" value="Save my information for a faster checkout" type="checkbox">
+										<label for="checkbox" class="checkbox__title">Save my information for a faster checkout</label>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+
+
+					<div class="out__body body__container">
+
+						<div class="out__body-chapter">
+							<form method="GET" enctype="multipart/form-data" action="#">
+								<h3 class="euphoria__sub-title euphoria__sub-title--label">Shipping Address</h3>
+								<h4 class="euphoria__label">Select the address that matches your card or payment method.</h4>
+								<div class="out__radio">
+									<div class="out__radio-group">
+										<input id="radio" class="radio__input" name="radio" checked value="Same as Billing address" type="radio">
+										<label for="radio" class="radio__title"><span>Use a different shipping address</span></label>
+									</div>
+									<div class="out__radio-group">
+										<input id="radio-2" class="radio__input" name="radio" value="Save my information for a faster checkout" type="radio">
+										<label for="radio-2" class="radio__title"><span>Save my information for a faster checkout</span></label>
+									</div>
+								</div>
+							</form>
+						</div>
+
+
+
+
+						<div class="out__text">
+							<form method="GET" enctype="multipart/form-data" action="#">
+
+								<h3 class="euphoria__sub-title euphoria__sub-title--title">Shipping Method</h3>
+								<div class="out__block">
+									<div class="out__block-one">
+										<p class="out__block-one-text">Arrives by Monday, June 7</p>
+									</div>
+
+
+									<div class="out__block-one-two">
+										<div class="out__block-box">
+											<div class="out__block-two">
+												<p class="out__block-one-text">Delivery Charges</p>
+											</div>
+											<div class="out__block-price">
+												<p class="out__block-one-text">$5.00</p>
+											</div>
+										</div>
+										<div class="out__block-three">
+											<p class="out__block-two-text">Additional fess may apply</p>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+
+
+						<div class="out__payment">
+							<form method="GET" enctype="multipart/form-data" action="#">
+								<h3 class="euphoria__sub-title euphoria__sub-title--label">Payment Method</h3>
+								<h4 class="euphoria__label">All transactions are secure and encrypted.</h4>
+
+								<div class="out__payment-box payment__box">
+
+									<div class="out__radio out__radio--payment">
+
+
+										<div class="out__radio-pay">
+											<div class="out__radio-group out__radio-group--payment">
+												<input id="radio-3" class="radio__input" name="radio-3" checked value="Credit Card" type="radio">
+												<label for="radio-3" class="radio__title radio__title--padd"><span>Credit Card</span>
+												</label>
+												<h5 class="payment__sub-title">We accept all major credit cards.</h5>
+											</div>
+
+											<div class="out__method-hidden">
+
+												<div class="out__method list">
+													<ul class="list__method pay">
+														<li class="pay__item">
+															<a href="#" class="pay__link">
+																<img src="img/pay.svg" alt="Pay">
+															</a>
+														</li>
+														<li class="pay__item">
+															<a href="#" class="pay__link">
+																<img src="img/visa.svg" alt="visa">
+															</a>
+														</li>
+														<li class="pay__item">
+															<a href="#" class="pay__link">
+																<img src="img/paypall.svg" alt="paypall">
+															</a>
+														</li>
+														<li class="pay__item">
+															<a href="#" class="pay__link">
+																<img src="img/paypass.svg" alt="paypass">
+															</a>
+														</li>
+													</ul>
+													<div class="out__card-info card-info">
+														<div class="card-info__item">
+															<input id="code-info1" class="card-info__item-br" required placeholder="Card number" type="number">
+														</div>
+														<div class="card-info__item">
+															<input id="code-info2" class="card-info__item-br" required placeholder="Name of card" type="text">
+														</div>
+														<div class="card-info__item">
+															<input id="code-info3" class="card-info__item-br" required placeholder="Expiration date (MM/YY)" type="number">
+														</div>
+														<div class="card-info__item">
+															<input id="code-info4" class="card-info__item-br" required placeholder="Security Code" type="number">
+														</div>
+
+													</div>
+
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<div class="out__radio-group out__radio-group--payment">
+											<input id="radio-4" class="radio__input" name="radio-3" value="Cash on delivery" type="radio">
+											<label for="radio-4" class="radio__title radio__title--padd"><span>Cash on delivery</span>
+												<p class="payment__sub-title">Pay with cash upon delivery.</p>
+											</label>
+										</div>
+
+
+										<div class="out__radio-group out__radio-group--payment--payment">
+											<input id="radio-5" class="radio__input" name="radio-3" value="Paypol" type="radio">
+											<label for="radio-5" class="radio__title"><span>Paypol</span></label>
+										</div>
+									</div>
+								</div>
+
+							</form>
+						</div>
+						<button class="pay-button button" type="submit">Pay Now</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+	</div>
+	<footer class="footer">
+
+	</footer>
+</body>
+
+</html>
